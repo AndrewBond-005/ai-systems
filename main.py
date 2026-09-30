@@ -7,7 +7,6 @@ from queries import (
     get_all_civilizations,
     get_all_eras,
     get_all_resources,
-    get_all_military_units,
 )
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -22,7 +21,6 @@ def print_help(prolog):
     print("Цивилизации:", ", ".join(civs))
     print("Эпохи:", ", ".join(eras))
     print("Ресурсы:", ", ".join(resources))
-    print("Юниты:", ", ".join(units))
 
 
 
